@@ -2,11 +2,18 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <title>My First Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Список</title>
 </head>
 <body>
-<h2>Здесь будет заголовок</h2>
-<p>Место для текста</p>
+    <h3>Список сотрудников компании "Импульс":</h3>
+    <p class = "b-radius5"><a href = 'http://127.0.0.1:5000/develop'><i>Отдел разработки:</i></a></p>
+    <p><li class ="red">Главный разработчик - Фёдоров Руслан</li>
+    <li class ="green">Младший разработчик - Иванова Ирина</li>
+    <li class ="blue">Тестировщик - Романов Пётр</li></p>
+    <p class ="b-radius1"><a href = 'http://127.0.0.1:5000/finance'><i>Бухгалтерия:</i></a></p>
+    <p><li class ="darkblue">Старший бухгалтер - Петров Олег</li>
+    <li class ="lightblue">Бухгалтер - Антонова Ольга</li>
+    <img src = 'https://learn.algoritmika.org/uploads/2020/10/22.png'></p>
 </body>
 </html>

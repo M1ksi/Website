@@ -1,3 +1,99 @@
-body {
-  color: #ff00aa
+
+.b-radius {
+  border: 4px double gainsboro;
+  border-radius: 30px 10px; 
+  color: rgb(255, 255, 255);
+  background-color: rgb(65, 105, 225);
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  }
+
+.b-radius2 {
+  border: 4px double gainsboro;
+  border-radius: 50px 50px; 
+  color: rgb(80, 41, 41);
+  background-color: rgb(255, 140, 0);
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+ }
+
+.b-radius3 {
+  border: 4px double gainsboro;
+  border-radius: 13em 0.5em/1em 0.5em; 
+  color: rgb(68, 10, 70);
+  background-color: rgb(255, 255, 255);
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  }
+
+.b-radius4 {
+  border: 4px double gainsboro;
+  border-radius: 10em/1em; 
+  color: rgb(8, 71, 19);
+  background-color: rgb(255, 255, 0);
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  }
+
+.b-radius5 {
+  border: 4px double gainsboro;
+  border-radius: 10px 10px; 
+  background-color: rgb(211, 211, 211);
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  }
+
+  .darkred {
+    color: darkred;
+    background-color: rgb(255, 228, 225);
+}
+
+.red {
+  color: rgb(255, 0, 0);
+  background-color: rgb(255, 228, 225);
+}
+
+.salmon{
+    color: rgb(250, 128, 114);
+    background-color: rgb(255, 228, 225);
+}
+
+.blue {
+    color:blue;
+    background-color: rgb(214, 228, 238);
+}
+
+.darkblue {
+    color:darkblue;
+    background-color: rgb(214, 228, 238)
+}
+
+.lightblue {
+    color: rgb(135, 206, 250);
+    background-color: rgb(214, 228, 238)
+}
+
+.darkgreen {
+    color:darkgreen;
+    background-color: rgb(215, 235, 212)
+}
+
+.lightgreen {
+    color: rgb(122, 207, 122);
+    background-color: rgb(215, 235, 212)
+}
+
+.green {
+    color:green;
+    background-color: rgb(215, 235, 212)
 }
